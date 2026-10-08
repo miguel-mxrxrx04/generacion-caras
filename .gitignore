@@ -1,0 +1,24 @@
+# Entornos virtuales
+venv/
+.env/
+env/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Pesos y modelos entrenados (ignora .pth pero mantiene la carpeta)
+weights/*
+!weights/.gitkeep
+
+# Datos locales e imágenes (ignora datasets pesados)
+data/raw/*
+!data/raw/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
